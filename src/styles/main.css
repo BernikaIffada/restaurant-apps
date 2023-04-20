@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+.app-bar {
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(231, 44, 131, 0.8);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  text-align: center;
+}
+
+body {font-family: 'Caveat', cursive; margin: 0; width: 100%;}
+a{text-decoration: none; padding: 14px 10px; color: white}
+p{font-size: 20px; text-align: center;}
+ul{padding: 14px}
+li{list-style: none; display: inline;}
+li a:hover{background: #4da4ff; color:#fff;}
+h2{text-align: center; font-size: 50px;}
+.ftr{background-color: rgba(231, 44, 131, 0.8); width: 100%; padding: 10px;}
+.ftr p{text-align: center;font-size: large; color: white;}
+.card-item-thumb {width: 100%;}
+.container h3{font-size: 50px;}
+
+.social-media {
+  padding: 5px;
+  color: blue;
+  border-radius: 4px;
+  margin: 2px;
+  font-family: 'Caveat', cursive;
+}
+
+.container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.hero{
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+button {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto; 
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 20px;
+  background-color: rgba(231, 44, 131, 0.8);
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
+  font-family: 'Caveat', cursive;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 8px;
+  background-color: rgba(231, 44, 131, 0.8);
+  color: white;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
